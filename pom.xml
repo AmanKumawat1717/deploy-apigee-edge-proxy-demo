@@ -7,6 +7,12 @@
     <version>1.0.0</version>
     <name>${proxyname}</name>
     <packaging>pom</packaging>
+    <distributionManagement>
+        <repository>
+            <id>1234</id>
+            <url>https://github.com/AmanKumawat1717/deploy-apigee-edge-proxy-demo.git</url>
+        </repository>
+    </distributionManagement>
 
    <properties>
             <project.root.dir>${basedir}</project.root.dir>
