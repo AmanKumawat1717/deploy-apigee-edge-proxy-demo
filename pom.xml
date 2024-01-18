@@ -43,7 +43,7 @@
             </properties>
         </profile>
     </profiles>
-    <build>
+   <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -61,7 +61,7 @@
                             <outputDirectory>${basedir}/target/apiproxy</outputDirectory>
                             <resources>
                                 <resource>
-                                    <directory>apiproxy</directory>
+                                    <directory>apiproxy/${proxyname}</directory>
                                 </resource>
                             </resources>
                         </configuration>
