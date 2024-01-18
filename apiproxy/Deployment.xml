@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Deployment">
+    <Basepaths>/v1/deployment</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1705562655569</CreatedAt>
+    <CreatedBy>payal.gehlot@neosalpha.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Deployment</DisplayName>
+    <LastModifiedAt>1705562896662</LastModifiedAt>
+    <LastModifiedBy>payal.gehlot@neosalpha.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:3e6333fc1f9b468bfc26f1971fa75aa2e7ac43912e1cdf308c5717c7841b331a38c5d0ac4ff41f4598390a44c0a11e5343f5f80795e456666deb058dfbd01d11:ap-northeast-1</ManifestVersion>
+    <Policies>
+        <Policy>Quota</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
